@@ -1,10 +1,10 @@
 # OCR-cv
 
-This project implements an Optical Character Recognition (OCR) pipeline using Computer Vision techniques. It takes raw images as input — such as scanned documents, receipts, or printed forms — and extracts readable text through a structured four-stage pipeline: Image Pre-processing → Text Detection → Text Recognition → Restructuring.
+This project implements an Optical Character Recognition (OCR) pipeline using Computer Vision techniques. It takes raw images as input — such as scanned documents, receipts, or printed forms — and extracts readable text through a structured four-stage pipeline: Image Pre-processing - Text Detection - Text Recognition - Restructuring.
 
 ## 📁 Project Structure
-├── MNIST_Image_Recognition.ipynb   # Neural network for digit recognition (foundational model)
-├── OCR_Pytesseract.ipynb           # Full OCR pipeline using Pytesseract
+├── MNIST_Image_Recognition.ipynb   
+├── OCR_Pytesseract.ipynb           
 └── README.md
 
 
@@ -20,7 +20,6 @@ Python — Core language
 Keras / TensorFlow — Neural network for digit recognition
 NumPy / Matplotlib — Data manipulation and visualization
 OpenCV (cv2) — Image processing and resizing
-Pillow (PIL) — Image loading and format handling
 Pytesseract — OCR text extraction engine
 Tesseract OCR — Underlying OCR engine by Google
 
